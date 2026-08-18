@@ -1,3 +1,7 @@
+## Link Web dan Demo Interface
+https://fikri-portfolio-sooty.vercel.app/
+<img width="1352" height="641" alt="portfolio" src="https://github.com/user-attachments/assets/fc602f4c-ea0e-475b-9893-afb5b92b0898" />
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
