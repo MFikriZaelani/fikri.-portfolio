@@ -63,7 +63,7 @@ type FormState = "idle" | "sending" | "sent";
 
 export default function ContactSection({
   socials,
-  email = "muhamadfikrizaelani@gmail.com",
+  email = "fikrimuhamadzael@gmail.com",
 }: ContactSectionProps) {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [formState, setFormState] = useState<FormState>("idle");
@@ -73,18 +73,24 @@ export default function ContactSection({
     if (!form.name || !form.email || !form.message) return;
     setFormState("sending");
 
-    const subject = encodeURIComponent(`Pesan dari ${form.name} — Portfolio`);
+    const subject = encodeURIComponent(`Portfolio Message dari ${form.name}`);
     const body = encodeURIComponent(
-      `Nama: ${form.name}\nEmail: ${form.email}\n\nPesan:\n${form.message}`,
+      `Halo Muhamad Fikri Zaelani,\n\nNama Pengirim: ${form.name}\nEmail Pengirim: ${form.email}\n\nPesan:\n${form.message}\n\n---\nPesan ini dikirim via Formulir Kontak Website Portfolio.`,
     );
+
+    // Link langsung ke compose Gmail dengan penerima email Fikri
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${subject}&body=${body}`;
     const mailtoUrl = `mailto:${email}?subject=${subject}&body=${body}`;
 
     setTimeout(() => {
-      window.location.href = mailtoUrl;
+      const newTab = window.open(gmailUrl, "_blank");
+      if (!newTab || newTab.closed || typeof newTab.closed === "undefined") {
+        window.location.href = mailtoUrl;
+      }
       setFormState("sent");
       setForm({ name: "", email: "", message: "" });
       setTimeout(() => setFormState("idle"), 4000);
-    }, 700);
+    }, 500);
   };
 
   return (

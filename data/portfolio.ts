@@ -62,7 +62,7 @@ export const portfolioData = {
     stats: {
       projectsCount: "44 Repository",
       certificatesCount: "16",
-      completedWorksCount: "6",
+      completedWorksCount: "12",
     },
     heroTags: ["Typescript", "React.js", "Tailwind"],
     heroSubtitle1: "↓ explore my work below",
@@ -94,6 +94,82 @@ export const portfolioData = {
     },
     {
       id: "p2",
+      title: "TQN Suryalaya App",
+      description:
+        "Platform aplikasi mobile dan web Pondok Pesantren Suryalaya untuk informasi agenda kalender sebelasan, manaqib, dzikir, dan kajian islami.",
+      longDescription:
+        "Platform aplikasi mobile dan web resmi untuk ikhwan Pondok Pesantren Suryalaya yang memudahkan akses jadwal kegiatan (seperti Kalender Sebelasan & Manaqiban), panduan amalan dzikir harian, tawasul, manaqib, serta konten edukasi islami dalam satu genggaman interaktif.",
+      tags: ["Mobile App", "React Native", "Islamic Tech", "UI/UX"],
+      image: "/tqn_suryalaya.png",
+      link: "#",
+      linkText: "No Link",
+      technologiesCount: 4,
+      keyFeaturesCount: 3,
+      keyFeatures: [
+        "Jadwal & Kalender Sebelasan / Manaqib Terintegrasi",
+        "Panduan Dzikir, Tawasul, & Kitab Tanbih Lengkap",
+        "Antarmuka Multi-Device (Mobile, Tablet, & Web)",
+      ],
+    },
+    {
+      id: "p3",
+      title: "SeeBook — Digital Library",
+      description:
+        "Aplikasi perpustakaan digital interaktif untuk eksplorasi, membaca, dan pelacakan progres membaca buku secara real-time.",
+      longDescription:
+        "SeeBook adalah aplikasi perpustakaan digital modern yang memudahkan pembaca menemukan, membaca, dan melacak riwayat serta progres membaca buku favorit. Dilengkapi dengan statistik membaca, pengelompokan status baca, dan antarmuka mobile yang elegan.",
+      tags: ["Mobile App", "React Native", "TypeScript", "UI/UX"],
+      image: "/seebook_2.png",
+      link: "#",
+      linkText: "No Link",
+      technologiesCount: 4,
+      keyFeaturesCount: 3,
+      keyFeatures: [
+        "Pelacakan Progres Membaca & Status Koleksi Buku",
+        "Koleksi & Katalog Buku Digital Lengkap",
+        "Statistik & Insight Kebiasaan Membaca Pengguna",
+      ],
+    },
+    {
+      id: "p4",
+      title: "Metadata Lens",
+      description:
+        "Platform forensik gambar digital untuk membaca metadata EXIF, XMP, C2PA serta mendeteksi indikasi jejak generator AI.",
+      longDescription:
+        "Metadata Lens adalah platform forensik digital untuk membongkar dan memeriksa jejak metadata tersembunyi di balik file gambar (EXIF, XMP, C2PA/JUMBF). Sistem dapat mencocokkan kata kunci Software/CreatorTool untuk memberikan indikasi apakah sebuah gambar asli atau dibuat/diedit menggunakan AI.",
+      tags: ["Next.js", "Image Forensics", "Metadata EXIF/XMP", "AI Detection"],
+      image: "/metadata_checker.png",
+      link: "#",
+      linkText: "No Link",
+      technologiesCount: 4,
+      keyFeaturesCount: 3,
+      keyFeatures: [
+        "Ekstraksi Mendalam Metadata EXIF, XMP, & C2PA",
+        "Analisis Kecocokan CreatorTool & Indikasi AI",
+        "Laporan Ringkasan Forensik Gambar Otomatis",
+      ],
+    },
+    {
+      id: "p5",
+      title: "Kamar Gelap Stego",
+      description:
+        "Aplikasi steganografi web menggunakan teknik Least Significant Bit (LSB) untuk menyembunyikan pesan rahasia di balik piksel gambar.",
+      longDescription:
+        "Kamar Gelap Stego adalah platform keamanan informasi berbasis web yang mengimplementasikan steganografi gambar dengan metode Least Significant Bit (LSB). Memungkinkan pengguna menyisipkan dan mengekstraksi pesan teks rahasia ke dalam bit warna citra digital tanpa mengubah visual gambar secara kasat mata.",
+      tags: ["Cryptography", "Steganography", "LSB", "Web App"],
+      image: "/stego.png",
+      link: "#",
+      linkText: "No Link",
+      technologiesCount: 4,
+      keyFeaturesCount: 3,
+      keyFeatures: [
+        "Penyisipan & Ekstraksi Pesan Rahasia Teknik LSB",
+        "Manipulasi Bit Piksel Citra Digital (RGB)",
+        "Keamanan Data & Visual Gambar Tetap Identik",
+      ],
+    },
+    {
+      id: "p6",
       title: "Chatbot KBIH",
       description:
         "Sistem chatbot layanan informasi KBIH cerdas berbasis AI/Machine Learning untuk membantu jemaah.",
@@ -112,7 +188,7 @@ export const portfolioData = {
       ],
     },
     {
-      id: "p3",
+      id: "p7",
       title: "Traveler Web App",
       description:
         "Platform sistem pemesanan dan eksplorasi destinasi wisata interaktif berbasis web.",
@@ -131,7 +207,7 @@ export const portfolioData = {
       ],
     },
     {
-      id: "p4",
+      id: "p8",
       title: "D'larisan Chicken App",
       description:
         "Platform web pemesanan Fried Chicken yang dilengkapi dengan integrasi payment gateway untuk transaksi secara otomatis dan cepat.",
@@ -150,7 +226,7 @@ export const portfolioData = {
       ],
     },
     {
-      id: "p5",
+      id: "p9",
       title: "TTS Informatika",
       description:
         "Platform game web Teka-Teki Silang interaktif yang dirancang sebagai media pembelajaran seru untuk mengasah pengetahuan seputar istilah Teknik Informatika.",
@@ -169,7 +245,7 @@ export const portfolioData = {
       ],
     },
     {
-      id: "p6",
+      id: "p10",
       title: "Creative Music Hub",
       description:
         "Dashboard pembuatan musik berbasis AI interaktif yang terintegrasi dengan payment gateway untuk akses fitur premium.",
@@ -185,6 +261,44 @@ export const portfolioData = {
         "AI Music Generation",
         "Payment Gateway",
         "Interactive Dashboard",
+      ],
+    },
+    {
+      id: "p11",
+      title: "NaraBaca",
+      description:
+        "Platform web edukasi interaktif belajar membaca anak-anak dengan modul latihan, audio pelafalan, tes, dan papan skor gamifikasi.",
+      longDescription:
+        "NaraBaca adalah platform edukasi interaktif yang dirancang khusus untuk membantu anak-anak belajar membaca dengan metode yang menyenangkan. Menghadirkan modul latihan interaktif, pelafalan audio, tes pemahaman kata, serta papan skor (leaderboard) berbasis gamifikasi untuk meningkatkan motivasi belajar.",
+      tags: ["Educational Tech", "Web App", "Gamification", "JavaScript"],
+      image: "/narabaca.png",
+      link: "#",
+      linkText: "No Link",
+      technologiesCount: 4,
+      keyFeaturesCount: 3,
+      keyFeatures: [
+        "Modul Latihan Membaca Interaktif & Audio Pelafalan",
+        "Tes Pemahaman Kata & Kuis Interaktif",
+        "Papan Skor (Leaderboard) & Sistem Gamifikasi",
+      ],
+    },
+    {
+      id: "p12",
+      title: "Emotion Detection App",
+      description:
+        "Aplikasi web cerdas berbasis AI dan Computer Vision untuk mendeteksi serta mengklasifikasikan ekspresi emosi wajah dari video.",
+      longDescription:
+        "Emotion Detection App adalah aplikasi web berbasis AI dan Computer Vision yang mampu mendeteksi serta mengklasifikasikan emosi wajah secara otomatis dari input video. Membantu analisis sentimen visual dan interaksi manusia-komputer secara akurat dan real-time.",
+      tags: ["Python", "Computer Vision", "AI / Deep Learning", "Machine Learning"],
+      image: "/emosi.png",
+      link: "#",
+      linkText: "No Link",
+      technologiesCount: 4,
+      keyFeaturesCount: 3,
+      keyFeatures: [
+        "Deteksi Ekspresi & Klasifikasi Emosi Wajah",
+        "Pemrosesan & Analisis Video Interaktif",
+        "Integrasi Model Deep Learning & Computer Vision",
       ],
     },
   ] as ProjectItem[],
@@ -406,16 +520,10 @@ export const portfolioData = {
       name: "Instagram",
       url: "https://www.instagram.com/fikrzln",
     },
-    { label: "04", name: "TikTok", url: "https://www.tiktok.com/@civisavicor" },
     {
-      label: "05",
+      label: "04",
       name: "Medium",
       url: "https://medium.com/@fikrimuhamadzael",
-    },
-    {
-      label: "06",
-      name: "YouTube",
-      url: "https://youtube.com/@fikrizaelani894",
     },
   ] as SocialLink[],
   whatsappNumber: "62859144618393",
