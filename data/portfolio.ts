@@ -7,6 +7,8 @@ export interface ProjectItem {
   image?: string;
   link?: string;
   linkText?: string;
+  githubLink?: string;
+  liveLink?: string;
   technologiesCount?: number;
   keyFeaturesCount?: number;
   keyFeatures?: string[];
@@ -84,6 +86,8 @@ export const portfolioData = {
       image: "/portfolio.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "https://github.com/MFikriZaelani/fikri.-portfolio",
+      liveLink: "https://fikri-portfolio-sooty.vercel.app",
       technologiesCount: 3,
       keyFeaturesCount: 3,
       keyFeatures: [
@@ -103,6 +107,8 @@ export const portfolioData = {
       image: "/tqn_suryalaya.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "",
+      liveLink: "",
       technologiesCount: 4,
       keyFeaturesCount: 3,
       keyFeatures: [
@@ -122,6 +128,8 @@ export const portfolioData = {
       image: "/seebook_2.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "",
+      liveLink: "",
       technologiesCount: 4,
       keyFeaturesCount: 3,
       keyFeatures: [
@@ -141,6 +149,8 @@ export const portfolioData = {
       image: "/metadata_checker.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "",
+      liveLink: "",
       technologiesCount: 4,
       keyFeaturesCount: 3,
       keyFeatures: [
@@ -160,6 +170,8 @@ export const portfolioData = {
       image: "/stego.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "",
+      liveLink: "",
       technologiesCount: 4,
       keyFeaturesCount: 3,
       keyFeatures: [
@@ -179,6 +191,8 @@ export const portfolioData = {
       image: "/chatbot-kbih.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "",
+      liveLink: "",
       technologiesCount: 3,
       keyFeaturesCount: 3,
       keyFeatures: [
@@ -198,6 +212,8 @@ export const portfolioData = {
       image: "/traveler.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "",
+      liveLink: "",
       technologiesCount: 3,
       keyFeaturesCount: 3,
       keyFeatures: [
@@ -217,6 +233,8 @@ export const portfolioData = {
       image: "/chicken.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "",
+      liveLink: "",
       technologiesCount: 3,
       keyFeaturesCount: 3,
       keyFeatures: [
@@ -236,6 +254,8 @@ export const portfolioData = {
       image: "/tts.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "",
+      liveLink: "",
       technologiesCount: 3,
       keyFeaturesCount: 3,
       keyFeatures: [
@@ -255,6 +275,8 @@ export const portfolioData = {
       image: "/cmh.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "",
+      liveLink: "",
       technologiesCount: 3,
       keyFeaturesCount: 3,
       keyFeatures: [
@@ -274,6 +296,8 @@ export const portfolioData = {
       image: "/narabaca.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "",
+      liveLink: "",
       technologiesCount: 4,
       keyFeaturesCount: 3,
       keyFeatures: [
@@ -293,6 +317,8 @@ export const portfolioData = {
       image: "/emosi.png",
       link: "#",
       linkText: "No Link",
+      githubLink: "",
+      liveLink: "",
       technologiesCount: 4,
       keyFeaturesCount: 3,
       keyFeatures: [
